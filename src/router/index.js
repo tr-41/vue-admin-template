@@ -63,9 +63,9 @@ export const constantRoutes = [
     meta: { title: '人员管理', icon: 'el-icon-s-help' },
     children: [
       {
-        path: 'table',
-        name: 'Table',
-        component: () => import('@/views/table/index'),
+        path: 'euser',
+        name: 'euser',
+        component: () => import('@/views/euser/index'),
         meta: { title: '参保人员信息', icon: 'table' }
       },
       {
