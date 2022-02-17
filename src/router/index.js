@@ -65,7 +65,7 @@ export const constantRoutes = [
       {
         path: 'euser',
         name: 'euser',
-        component: () => import('@/views/euser/index'),
+        component: () => import('@/views/euser/complex-table'),
         meta: { title: '参保人员信息', icon: 'table' }
       },
       {
